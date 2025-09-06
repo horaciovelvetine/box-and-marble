@@ -1,5 +1,7 @@
 # Box and Marble Logic Puzzle
 
+[🌐 **Live Demo**](https://horaciovelvetine.github.io/box-and-marble/)
+
 A classic logical reasoning challenge implemented as an interactive web application. Test your deductive reasoning skills with this engaging puzzle that combines visual elements with logical thinking.
 
 ## The Puzzle
@@ -75,6 +77,16 @@ There are a total of 6 marbles - 3 red and 3 white.
 ### Step 4: Play Again
 - Click "Play Again" to start a new puzzle with a different configuration
 - Click "Reset Puzzle" to restart the current puzzle
+
+## Deployment
+
+This project is automatically deployed to GitHub Pages using GitHub Actions. The application is available at:
+
+[🌐 **Live Demo**](https://horaciovelvetine.github.io/box-and-marble/)
+
+### Local Development
+
+For local development, you can run the application using any of the methods described in the [Getting Started](#getting-started) section.
 
 ## License
 
