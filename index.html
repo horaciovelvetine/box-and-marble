@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box and Marble Logic Puzzle</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1>🎯 Box and Marble Logic Puzzle</h1>
+        <p class="subtitle">A classic logical reasoning challenge</p>
+      </header>
+
+      <div class="puzzle-description">
+        <h2>The Problem</h2>
+        <p>You are given 3 matchboxes by a professor with a conspicous grin.
+          Each box contains exactly 2 marbles which are either red or white. The
+          boxes are each <strong>incorrectly </strong> labeled as follows:</p>
+        <ul>
+          <li><strong>"Red and White"</strong></li>
+          <li><strong>"Red and Red"</strong></li>
+          <li><strong>"White and White"</strong></li>
+        </ul>
+        <p>The labels correctly outline the only possible combinations of marble
+          colors in the boxes, but are currently <strong>incorrect</strong>.</p>
+        <p><strong>Challenge:</strong> You can peek inside ONE box and look at
+          exactly ONE marble. Can you figure out what's in each box?</p>
+      </div>
+
+      <div class="puzzle-container">
+        <div class='matchboxes-container'>
+          <ul id="matchboxes-list">
+          </ul>
+
+          <div class='matchbox-detail-display'>
+
+          </div>
+
+          <div class='label-selection-container' id='label-selection-container' style='display: none;'>
+            <h3>Now select the correct labels for each box:</h3>
+            <div class='label-selection-boxes'>
+              <div class='label-selection-box'>
+                <h4>Box 1</h4>
+                <select id='box-1-label-select' class='label-select'>
+                  <option value=''>Select label...</option>
+                  <option value='White and White'>White and White</option>
+                  <option value='Red and Red'>Red and Red</option>
+                  <option value='Red and White'>Red and White</option>
+                </select>
+              </div>
+              <div class='label-selection-box'>
+                <h4>Box 2</h4>
+                <select id='box-2-label-select' class='label-select'>
+                  <option value=''>Select label...</option>
+                  <option value='White and White'>White and White</option>
+                  <option value='Red and Red'>Red and Red</option>
+                  <option value='Red and White'>Red and White</option>
+                </select>
+              </div>
+              <div class='label-selection-box'>
+                <h4>Box 3</h4>
+                <select id='box-3-label-select' class='label-select'>
+                  <option value=''>Select label...</option>
+                  <option value='White and White'>White and White</option>
+                  <option value='Red and Red'>Red and Red</option>
+                  <option value='Red and White'>Red and White</option>
+                </select>
+              </div>
+            </div>
+            <button id='submit-answers-btn' class='submit-answers-btn'>Check My Answers</button>
+            <button id='reset-puzzle-btn' class='reset-puzzle-btn'>Reset Puzzle</button>
+          </div>
+
+          <div class='result-display' id='result-display' style='display: none;'>
+
+          </div>
+        </div>
+      </div>
+
+      <script src="box-and-marble-script.js"></script>
+  </body>
+
+</html>
